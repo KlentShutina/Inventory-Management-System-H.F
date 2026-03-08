@@ -2,7 +2,7 @@ import { useRouter } from "expo-router";
 import { useState } from "react";
 import { Alert, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { Stack } from "expo-router";
-
+//Ndodhet ne folder app
 export default function LoginScreen() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -70,4 +70,5 @@ const styles = StyleSheet.create({
   button: { backgroundColor: "#007AFF", padding: 15, borderRadius: 8, alignItems: "center", marginTop: 10 },
   buttonText: { color: "white", fontWeight: "bold", fontSize: 16 },
   link: {color: "black", fontWeight: "bold", fontSize: 16}
+
 });

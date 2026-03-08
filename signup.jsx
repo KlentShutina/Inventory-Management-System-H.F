@@ -1,7 +1,7 @@
 import { useRouter } from "expo-router";
 import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
-
+//Ndodhet ne folder app
 export default function Signup() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -75,4 +75,5 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "bold"
   }
+
 });

@@ -1,5 +1,5 @@
 import { Stack } from 'expo-router';
-
+//Ndodhet ne folder app
 export default function RootLayout() {
   return (
     <Stack>
